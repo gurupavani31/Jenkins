@@ -18,7 +18,7 @@ case $ch in
   ;;
   2)res=`expr $a - $b`
   ;;
-  3)res=`expr $a \* $b`
+  3)res=`expr $a \* $b \*2`
   ;;
   4)res=`expr $a / $b`
   ;;
